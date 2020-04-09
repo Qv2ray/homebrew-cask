@@ -7,9 +7,8 @@ cask 'qv2ray' do
     name 'Qv2ray'
     homepage 'https://qv2ray.github.io/'
 
-    depends_on macos: '>= :mojave'
-
     auto_updates true
+    depends_on macos: '>= :mojave'
 
     app 'qv2ray.app'
 end
